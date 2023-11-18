@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mon CV - mon formulaire</title>
+    </head>
+
+    <body>
+        <form>
+        
+            <h2>Formulaire: 
+                <tr>
+                    <th>
+                        <img
+                            src="images/form.png"
+                            alt="formulaire"
+                            width="10%"
+                            height="10%"
+                        />   
+                    </th>
+                </tr>    
+            </h2>
+            <br />
+             <hr />
+                <table>
+                    <tr>
+                        <td>
+                            <label for="fname"> Nom: <span>*</span></label>
+                        </td>
+                        <td>
+                            <input
+                                type="text"
+                                id="fname"
+                                name="fname"
+                                required
+                                minlength="3"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname"> Prénom: </label></td>
+                        <td>
+                            <input
+                                type="text"
+                                id="lname"
+                                name="lname"
+                                minlength="3"
+                                required
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="add"> Addresse: </label></td>
+                        <td>
+                            <textarea
+                                name="add"
+                                id="add"
+                                cols="20"
+                                rows="7"
+                            ></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="pays"> Pays: </label>
+                            <select name="Pays">
+                                <option value="tn"> Tunisie </option>
+                                <option value="fr"> France </option>
+                                <option value="en"> l'angleterre </option>
+                            </select>
+
+                        </td>
+                    </tr>
+                    <br/>
+                    <tr>
+                        <td>
+                            <label for="phone"> Numéro de téléphone: <span>*</span></label
+                            >
+                        </td>
+                        <td>
+                            <input
+                                type="number"
+                                id="phone"
+                                name="phone"
+                                minlength="8"
+                                required
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob"> Date de naissance: </label></td>
+                        <td>
+                            <input type="date" id="dob" name="dob" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email"> Email: <span>*</span></label>
+                        </td>
+                        <td>
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                required
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pass"> Mot de passe: <span>*</span></label>
+                        </td>
+                        <td>
+                            <input
+                                type="password"
+                                name="pass"
+                                id="pass"
+                                minlength="8"
+                                required
+                                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cpass"> Confirmer la mot de passe: <span>*</span></label
+                            >
+                        </td>
+                        <td>
+                            <input
+                                type="password"
+                                name="cpass"
+                                id="cpass"
+                                minlength="8"
+                                required
+                                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <br/>
+                        <td>
+                            <label>
+                                <input type="radio" name="genre" value="f" checked>
+                                Femme
+                            </label>
+                            <label>
+                                <input type="radio" name="genre" value="h" checked>
+                                Homme
+                            </label>
+                        </td>
+                    </tr>
+                        <br/>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </td>
+                    </tr>
+                </table>
+        </form>
+        <br />
+        <hr />
+        <br />
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="etudes.html">Parcours Académique</a></li>
+            <li><a href="experience.html">Expériences</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </body>
+</html>
