@@ -1,0 +1,173 @@
+body 
+{   
+    background-color: black;
+    font-family: Tribuchet ; 
+    margin : 0px ;
+}
+
+nav
+{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:  45px; 
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo
+{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span
+{
+    color: palevioletred;
+}
+nav ul li 
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;   
+}
+nav ul li a 
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover
+{
+    color: palevioletred;
+    transition: .3s;
+}
+.btn
+{
+    background-color: palevioletred;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .3s;
+}
+.btn:hover
+{
+    transform: scale(1.2);
+}
+header,footer
+{
+    background-color : pink ;
+    color: white;	 
+}
+h1
+{
+    color: #f9004d;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+.imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+}
+.about
+{
+    width: 100%;
+    padding: 100px 0px;
+}
+.about-text
+{
+    width: 550px;
+}
+.about-text h2
+{
+    color: #fcfc;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h3
+{
+    color: pink;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text h4
+{
+    color: palevioletred;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p
+{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.about-text ul
+{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;  
+}
+.lien ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;   
+}
+.lien ul li a 
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.lien ul li a:hover
+{
+    color: palevioletred;
+    transition: .3s;
+}
+header,footer
+{
+    background-color :black ;
+    color: white;	 
+}
+.btn1
+{
+    background-color:#DED983 ;
+    font-size: 1.2 em;
+    color:#345071 ;
+    font-family: Verdana;
+}
+
+
+
+
+
+

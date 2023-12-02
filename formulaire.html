@@ -5,29 +5,29 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Mon CV - mon formulaire</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <header>
+                    <img
+                        src="images/form.png"
+                        alt="formulaire"
+                        width="100%"
+                        height="200px"
+                    />       
+        </header>
+         <hr />
+        <section class="about">
+            <div class="about-text">
         <form>
         
-            <h2>Formulaire: 
-                <tr>
-                    <th>
-                        <img
-                            src="images/form.png"
-                            alt="formulaire"
-                            width="10%"
-                            height="10%"
-                        />   
-                    </th>
-                </tr>    
-            </h2>
-            <br />
+            <h2>Formulaire: </h2>
              <hr />
                 <table>
                     <tr>
                         <td>
-                            <label for="fname"> Nom: <span>*</span></label>
+                            <label for="fname"> <font color="white"> Nom: </font> <span>*</span></label>
                         </td>
                         <td>
                             <input
@@ -40,7 +40,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><label for="lname"> Prénom: </label></td>
+                        <td><label for="lname"> <font color="white"> Prénom: </font> <span>*</span> </label></td>
                         <td>
                             <input
                                 type="text"
@@ -52,7 +52,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><label for="add"> Addresse: </label></td>
+                        <td><label for="add"> <font color="white"> Adresse: </font> </label></td>
                         <td>
                             <textarea
                                 name="add"
@@ -63,7 +63,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><label for="pays"> Pays: </label>
+                        <td><label for="pays"> <font color="white"> Pays: </font> </label>
                             <select name="Pays">
                                 <option value="tn"> Tunisie </option>
                                 <option value="fr"> France </option>
@@ -75,7 +75,7 @@
                     <br/>
                     <tr>
                         <td>
-                            <label for="phone"> Numéro de téléphone: <span>*</span></label
+                            <label for="phone"> <font color="white"> Numéro de téléphone: </font> <span>*</span></label
                             >
                         </td>
                         <td>
@@ -89,14 +89,14 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><label for="dob"> Date de naissance: </label></td>
+                        <td><label for="dob"> <font color="white"> Date de naissance: </font> </label></td>
                         <td>
                             <input type="date" id="dob" name="dob" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="email"> Email: <span>*</span></label>
+                            <label for="email"> <font color="white"> Email: </font> <span>*</span></label>
                         </td>
                         <td>
                             <input
@@ -109,7 +109,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <label for="pass"> Mot de passe: <span>*</span></label>
+                            <label for="pass"> <font color="white"> Mot de passe: </font> <span>*</span></label>
                         </td>
                         <td>
                             <input
@@ -124,7 +124,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <label for="cpass"> Confirmer la mot de passe: <span>*</span></label
+                            <label for="cpass"> <font color="white"> Confirmer la mot de passe: </font> <span>*</span></label
                             >
                         </td>
                         <td>
@@ -143,11 +143,11 @@
                         <td>
                             <label>
                                 <input type="radio" name="genre" value="f" checked>
-                                Femme
+                                <font color="white"> Femme </font>
                             </label>
                             <label>
                                 <input type="radio" name="genre" value="h" checked>
-                                Homme
+                                <font color="white"> Homme </font>
                             </label>
                         </td>
                     </tr>
@@ -155,8 +155,8 @@
                     <tr>
                         <td></td>
                         <td>
-                            <button type="submit">Submit</button>
-                            <button type="reset">Reset</button>
+                            <button type="submit" class="btn1">Submit</button>
+                            <button type="reset" class="btn1">Reset</button>
                         </td>
                     </tr>
                 </table>
@@ -164,11 +164,15 @@
         <br />
         <hr />
         <br />
+        <div class="lien">
         <ul>
             <li><a href="index.html">Accueil</a></li>
             <li><a href="etudes.html">Parcours Académique</a></li>
             <li><a href="experience.html">Expériences</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+    </div>
+    </div>
+</section> 
     </body>
 </html>
